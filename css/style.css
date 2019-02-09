@@ -83,10 +83,10 @@ body{
 
 .about-me{
   display: flex;
-  background-color: #FDB433;
+  background-color: #FFDD7A;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .about-details{
@@ -96,8 +96,8 @@ body{
 }
 
 .about-image-container{
-  background-color: #5D150E;
-  border: 1px solid green;
+  background-color: #FDB433;
+  /* border: 1px solid green; */
   margin: 0px 0px 0px 0px;
   padding: 0px;
 }
@@ -106,4 +106,66 @@ body{
   padding:50px;
   width: 350px;
   height: 350px;
+}
+
+.objectives-title{
+  display: flex;
+  justify-content: center;
+}
+
+.objectives-article{
+  
+  display: flex;
+  background-color: #D14C29;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  
+}
+
+.objectives-details{
+  font-size: 44pt;
+  margin: 0px 0px 0px 91px;
+  display: inline-block; 
+}
+
+.knowledge-list-title{
+  display: flex;
+  justify-content: center;
+}
+
+.knowledge-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certificate{
+  margin: 44px 16px 44px 28px;
+  /* width: 720px; */
+  flex-shrink: 0;
+  /* border-radius: 26px; */
+  overflow: auto;
+  background-color: white;
+}
+
+.certificate-image-container{
+  margin: 0;
+  border: 1px solid red;
+  padding: 37px;
+}
+
+.certificate-image{
+  /* width: 720px; */
+  height: 480px;
+  object-fit: cover;
+}
+
+.container-knowledge-list{
+  background-color: #FFDD7A;
+  border: 1px solid red;
+  width: 100%;
+  display: inherit;
+  height: inherit;
+  align-items: inherit;
+  justify-content: inherit;
 }
