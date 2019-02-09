@@ -37,7 +37,7 @@ body{
 }
 
 .container{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   display: inherit;
   height: inherit;
@@ -150,7 +150,7 @@ body{
 
 .certificate-image-container{
   margin: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 37px;
 }
 
@@ -162,7 +162,7 @@ body{
 
 .container-knowledge-list{
   background-color: #FFDD7A;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   display: inherit;
   height: inherit;
