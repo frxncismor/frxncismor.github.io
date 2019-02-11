@@ -27,6 +27,7 @@ body{
 }
 
 .header-menu a{
+  text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
   height: inherit;
@@ -72,6 +73,8 @@ body{
 }
 
 .about-title-container{
+  text-transform: uppercase;
+  font-family: 'Baron Neue';
   display: flex;
   justify-content: center;
 }
@@ -86,7 +89,7 @@ body{
   background-color: #FFDD7A;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 .about-details{
@@ -97,7 +100,7 @@ body{
 
 .about-image-container{
   background-color: #FDB433;
-  /* border: 1px solid green; */
+  border: 1px solid green;
   margin: 0px 0px 0px 0px;
   padding: 0px;
 }
@@ -109,6 +112,8 @@ body{
 }
 
 .objectives-title{
+  text-transform: uppercase;
+  font-family: 'Baron Neue';
   display: flex;
   justify-content: center;
 }
@@ -119,7 +124,7 @@ body{
   background-color: #D14C29;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   
 }
 
@@ -130,6 +135,9 @@ body{
 }
 
 .knowledge-list-title{
+  text-transform: uppercase;
+  font-family: 'Baron Neue';
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
 }
@@ -168,4 +176,98 @@ body{
   height: inherit;
   align-items: inherit;
   justify-content: inherit;
+}
+
+.portfolio-title{
+  text-transform: uppercase;
+  font-family: 'Baron Neue';
+  display: flex;
+  justify-content: center;
+}
+
+.contact{
+  background-color: #5D150E; 
+  /* padding: 150px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-title{
+  font-family: 'Baron Neue';
+  text-transform: uppercase;
+  color: white;
+}
+
+.form-email{
+  /* height: 50px; */
+  margin: 0px 0px 17px 70px;
+}
+
+
+.contact-submit{
+  border: 1px white solid;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+.contact-input{
+  font-family: 'Open Sans';
+  border: 1px gray solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 70px 0px 0px;
+}
+
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+  /* padding: 0px 70px 0px 0px; */
+}
+
+.social-link.twitter{
+  background-image: url('../images/twitter.svg');
+}
+
+.social-link.github{
+  background-image: url('../images/github.svg');
+}
+
+
+.footer{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-info{
+  font-family: 'Baron Neue';
+  /* text-transform: uppercase; */
+  margin: 10px 0px 10px 70px;
+}
+
+.footer-designed{
+  font-family: 'Baron Neue';
+  margin: 10px 70px 10px 0px;
+}
+.footer-designed a{
+  color: #F05631;
+  text-decoration: none;
+}
+
+.footer-info strong{
+  color: #FFCB39;
 }
